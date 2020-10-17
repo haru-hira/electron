@@ -2,7 +2,7 @@
   "name": "electron",
   "version": "1.0.0",
   "description": "Electron sample.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/haru-hira/electron.git",
   "author": "admin_haru <moto55.haru13@gmail.com>",
   "license": "MIT",
