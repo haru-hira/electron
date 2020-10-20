@@ -8,7 +8,7 @@ class SampleApp {
   constructor(app: App) {
     this.app = app;
     this.app.on("window-all-closed", this.onWindowAllClosed.bind(this));
-    this.app.on("ready", this.create.bind(this));
+    this.app.on("ready", this.onReady.bind(this));
     this.app.on("activate", this.onActivated.bind(this));
   }
 
